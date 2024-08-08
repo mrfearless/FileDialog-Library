@@ -1,0 +1,59 @@
+#define IDD_DIALOG 1000
+#define IDC_BtnExit 1001
+#define IDC_StatusBar 1002
+#define IDC_BtnOpenFileA 1003
+#define IDC_BtnOpenFilesA 1004
+#define IDC_BtnSaveFileA 1005
+#define IDC_BtnSaveFileW 1006
+#define IDC_BtnOpenFilesW 1007
+#define IDC_BtnOpenFileW 1008
+#define IDC_BtnSelectFolderA 1009
+#define IDC_BtnSelectFolderW 1010
+#define IDC_EdtOpenFileA 1011
+#define IDC_EdtSaveFileA 1012
+#define IDC_EdtSelectFolderA 1013
+#define IDC_EdtOpenFilesA 1014
+#define IDC_SHP1 1015
+#define IDC_SHP2 1016
+#define IDC_SHP3 1017
+#define IDC_LblAnsi 1018
+#define IDC_LblWide 1019
+#define IDC_EdtOpenFilesW 1024
+#define IDC_EdtSelectFolderW 1023
+#define IDC_EdtSaveFileW 1022
+#define IDC_EdtOpenFileW 1021
+#define IDC_LblA 1020
+#define IDC_LblW 1025
+IDD_DIALOG DIALOGEX 4,3,373,273
+CAPTION "FileDialog x64 Library Test"
+FONT 12,"Segoe UI",400,0
+CLASS "DLGCLASS"
+STYLE 0x10CA0800
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "Open FIle...",IDC_BtnOpenFileA,"Button",0x50010000,288,20,81,11,0x00000000
+  CONTROL "Save FIle...",IDC_BtnSaveFileA,"Button",0x50010000,288,36,81,11,0x00000000
+  CONTROL "Select Folder...",IDC_BtnSelectFolderA,"Button",0x50010000,288,51,81,11,0x00000000
+  CONTROL "Open FIles...",IDC_BtnOpenFilesA,"Button",0x50010000,288,66,81,11,0x00000000
+  CONTROL "Open FIle...",IDC_BtnOpenFileW,"Button",0x50010000,288,131,81,11,0x00000000
+  CONTROL "Save FIle...",IDC_BtnSaveFileW,"Button",0x50010000,288,146,81,11,0x00000000
+  CONTROL "Select Folder...",IDC_BtnSelectFolderW,"Button",0x50010000,288,161,81,11,0x00000000
+  CONTROL "Open FIles...",IDC_BtnOpenFilesW,"Button",0x50010000,288,177,81,11,0x00000000
+  CONTROL "E&xit",IDC_BtnExit,"Button",0x50010001,288,238,81,11,0x00000000
+  CONTROL "",IDC_EdtOpenFileA,"Edit",0x50010000,4,20,280,11,0x00000200
+  CONTROL "",IDC_EdtSaveFileA,"Edit",0x50010000,4,36,280,11,0x00000200
+  CONTROL "",IDC_EdtSelectFolderA,"Edit",0x50010000,4,51,280,11,0x00000200
+  CONTROL "",IDC_EdtOpenFilesA,"Edit",0x50310004,4,66,280,44,0x00000200
+  CONTROL " FileDialog x64 Library Test - https://github.com/mrfearless/FileDialog-Library",IDC_StatusBar,"msctls_statusbar32",0x50000003,0,264,373,8,0x00000000
+  CONTROL "",IDC_SHP1,"Static",0x50000010,4,121,367,1,0x00000000
+  CONTROL "",IDC_SHP2,"Static",0x50000010,4,230,367,1,0x00000000
+  CONTROL "",IDC_SHP3,"Static",0x50000010,4,11,367,1,0x00000000
+  CONTROL " Ansi FileDialog Functions: ",IDC_LblAnsi,"Static",0x50000000,11,6,84,8,0x00000000
+  CONTROL " Wide FileDialog Functions: ",IDC_LblWide,"Static",0x50000000,11,116,86,8,0x00000000
+  CONTROL "",IDC_EdtOpenFilesW,"Edit",0x50310004,4,177,280,44,0x00000200
+  CONTROL "",IDC_EdtSelectFolderW,"Edit",0x50010000,4,161,280,11,0x00000200
+  CONTROL "",IDC_EdtSaveFileW,"Edit",0x50010000,4,146,280,11,0x00000200
+  CONTROL "",IDC_EdtOpenFileW,"Edit",0x50010000,4,131,280,11,0x00000200
+  CONTROL "A",IDC_LblA,"Static",0x50000201,302,85,51,25,0x00000000
+  CONTROL "W",IDC_LblW,"Static",0x50000201,302,196,51,25,0x00000000
+END

@@ -1,0 +1,18 @@
+;------------------------------------------------------------------------------
+; FileDialog x86 Library
+;
+; Paste this text at the end of \Radasm\masm\masmApiCall.api to add these to Radasm
+;
+;------------------------------------------------------------------------------
+FileOpenDialogA,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bMulti,lpdwFiles,lpFilesArray
+FileOpenDialogW,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bMulti,lpdwFiles,lpFilesArray
+FileOpenDialog,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bMulti,lpdwFiles,lpFilesArray
+
+FileSaveDialogA,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bWarn,lpszFileName,lpdwSaveFile
+FileSaveDialogW,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bWarn,lpszFileName,lpdwSaveFile
+FileSaveDialog,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bWarn,lpszFileName,lpdwSaveFile
+
+FolderSelectDialogA,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,hWndOwner,lpdwFolder
+FolderSelectDialogW,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,hWndOwner,lpdwFolder
+FolderSelectDialog,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,hWndOwner,lpdwFolder
+

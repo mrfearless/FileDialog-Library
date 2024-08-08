@@ -1,0 +1,4 @@
+#include "Res/FileDialogTestVer.rc"
+#include "Res/FileDialogTestMnu.rc"
+#include "Res/FileDialogTestDlg.rc"
+#include "Res/FileDialogTestRes.rc"

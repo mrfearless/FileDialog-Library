@@ -1,0 +1,17 @@
+;------------------------------------------------------------------------------
+; FileDialog x64 Library
+;
+; Paste this text at the end of \Radasm\UASM64\uasm64ApiCall.api to add these to Radasm
+;
+;------------------------------------------------------------------------------
+FileOpenDialogA,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bMulti,lpqwFiles,lpFilesArray
+FileOpenDialogW,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bMulti,lpqwFiles,lpFilesArray
+FileOpenDialog,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bMulti,lpqwFiles,lpFilesArray
+
+FileSaveDialogA,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bWarn,lpszFileName,lpqwSaveFile
+FileSaveDialogW,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bWarn,lpszFileName,lpqwSaveFile
+FileSaveDialog,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,nMFS,pMFS,hWndOwner,bWarn,lpszFileName,lpqwSaveFile
+
+FolderSelectDialogA,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,hWndOwner,lpqwFolder
+FolderSelectDialogW,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,hWndOwner,lpqwFolder
+FolderSelectDialog,lpszTitle,lpszOkLabel,lpszFileLabel,lpszFolder,hWndOwner,lpqwFolder
